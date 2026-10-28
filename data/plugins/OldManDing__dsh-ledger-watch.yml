@@ -1,0 +1,6 @@
+url: https://github.com/OldManDing/dsh-ledger-watch
+name: OldManDing/dsh-ledger-watch
+category: memory
+description:
+  en: Session-level indicator for an external lesson-ledger skill that shows whether this session looked up the ledger before working and whether it recorded the pitfalls it hit, separating checked, checked-but-not-recorded, ran-tools-but-never-checked and out-of-scope sessions. The ledger skill itself is not part of this package.
+  zh: 会话级经验账本指示灯：显示本会话动手前有没有查账本、踩坑后有没有记下来，并把「查了」「查了没记」「跑了工具没查」「不在监视范围」分离显示。账本技能本身不包含在本包内。
