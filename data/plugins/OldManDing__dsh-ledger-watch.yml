@@ -3,5 +3,5 @@ name: OldManDing/dsh-ledger-watch
 category: memory
 icon: https://raw.githubusercontent.com/OldManDing/dsh-ledger-watch/main/assets/icon-180.png
 description:
-  en: "Session-level lesson-ledger watch for DeepSeek Harness: shows whether a session actually consulted the ledger and recorded the pitfalls it hit, keeps the rule base's health visible (rules needing rework, rules already revised), and can inject the most relevant rules into the step as a system-reminder (high-confidence mode, off by default). The ledger rules themselves live in the external lesson-ledger skill, which the bundled install.ps1 provisions; this plugin only reads them. Zero runtime dependencies; the browser half only needs React."
-  zh: "会话级经验账本监视：显示本会话到底有没有查询经验、有没有记下踩过的坑，并把规则库健康度（失效待改、已修订）摆在明面上；可选把最相关的规则按任务注入上下文（高置信模式，默认关闭）。账本规则本身来自外部的 lesson-ledger 技能，由随包的 install.ps1 负责装好，本插件只读它。零运行时依赖，浏览器半边只需 React。"
+  en: Watches this session's tool calls and reports whether the lesson ledger was checked, whether a pitfall was recorded, and which entries were written - in a tab and in a pill under the composer. Does not write the ledger and does not judge what counts as a pitfall.
+  zh: 自动监测本会话的工具调用，判断有没有查经验账本、有没有记坑，并把「查了几次、记了几次、记了哪几条」实时显示在面板和输入框下方。它不写账本，也不判断什么算坑。
