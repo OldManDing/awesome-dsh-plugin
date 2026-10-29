@@ -3,5 +3,5 @@ name: OldManDing/dsh-ledger-watch
 category: memory
 icon: https://raw.githubusercontent.com/OldManDing/dsh-ledger-watch/main/assets/icon-180.png
 description:
-  en: Answers at a glance whether this session checked the lesson ledger before working and whether it recorded the pitfalls it hit. The installer provisions the ledger skill and the AGENTS.md wiring, so there is nothing to set up by hand.
-  zh: 本会话有没有先查经验账本、有没有把踩过的坑记下来 —— 面板一眼给出答案。技能与 AGENTS.md 接线由安装脚本自动完成，不需要手工配置。
+  en: See at a glance whether this session checked the lesson ledger, whether it recorded the pitfalls it hit, and which entries it wrote. Nothing to configure.
+  zh: 本会话查没查经验账本、记没记坑、记了哪几条 —— 面板上一眼可见，不用问模型，也不用翻文件。
