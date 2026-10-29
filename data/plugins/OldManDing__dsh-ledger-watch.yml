@@ -3,5 +3,5 @@ name: OldManDing/dsh-ledger-watch
 category: memory
 icon: https://raw.githubusercontent.com/OldManDing/dsh-ledger-watch/main/assets/icon-180.png
 description:
-  en: Watches this session's tool calls and reports whether the lesson ledger was checked, whether a pitfall was recorded, and which entries were written - in a tab and in a pill under the composer. Does not write the ledger and does not judge what counts as a pitfall.
-  zh: 自动监测本会话的工具调用，判断有没有查经验账本、有没有记坑，并把「查了几次、记了几次、记了哪几条」实时显示在面板和输入框下方。它不写账本，也不判断什么算坑。
+  en: "With the lesson-ledger skill, a session can skip pitfalls it has already hit: look the ledger up before working, record new ones as rules. This plugin watches whether that actually happens and shows the result in a tab and under the composer."
+  zh: "配合 lesson-ledger 技能，让模型下次遇到同一个坑直接跳过：动手前先查账本，踩过的坑记成规则。本插件负责盯着它有没有真的这么做，并把「查了几次、记了哪几条」摆在面板和输入框下方。"
